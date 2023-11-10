@@ -210,9 +210,7 @@ body {
     margin: 50px 0;
 }
 
-* {
-    box-sizing: border-box;
-}
+/* Form */
 
 input[type=text],
 select,
@@ -281,11 +279,7 @@ input[type=submit]:hover {
 }
 
 /* footer */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 
 ul {
     list-style: none;
