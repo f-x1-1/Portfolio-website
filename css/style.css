@@ -1,0 +1,355 @@
+body {
+    font-family: ‘Montserrat’, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3d30a2;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navigation Bar */
+.custom-toggler .navbar-toggler-icon {
+    background-color: white;
+    /* Hamburger menu background */
+    border: 2px solid white;
+    /* Hamburger menu border */
+    border-radius: 4px;
+    /* Rounded corners for hamburger menu */
+}
+
+.custom-toggler .navbar-toggler-icon:focus {
+    outline: none;
+    /* Remove focus outline for cleaner look */
+}
+
+.navbar {
+    /* Navbar background color */
+    display: flex;
+    justify-content: space-between;
+    /* Space between navbar items */
+    align-items: center;
+    /* Center vertically */
+    padding: 20px;
+}
+
+.navbar span {
+    color: white;
+    border-color: white;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin: 0 20px;
+    /* Spacing between navbar items */
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #ffffff;
+    /* Navbar item text color */
+    font-size: 1.5rem;
+}
+
+/* Change the color of the logo to gold */
+.navbar-brand {
+    color: #ffd700;
+    /* Gold color */
+}
+
+/* Hamburger Menu */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    background-color: #ffffff;
+    /* Hamburger menu lines color */
+    height: 3px;
+    width: 25px;
+    margin: 3px 0;
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+}
+
+/* Top Container */
+.top-container {
+    /* Your desired background color */
+    padding: 100px 0;
+    /* Top container padding */
+    height: 70rem;
+}
+
+/* Center-align h1 and h2 text */
+.top-container .col-lg-6 {
+    text-align: center !important;
+}
+
+/* Reset the text alignment for h1, h2, and the button */
+.top-container h1,
+.top-container h2,
+.top-container .btn-cv {
+    text-align: left !important;
+}
+
+/* Top Container h1 */
+.text-body-emphasis {
+    --bs-text-opacity: 1;
+    color: #ffffff !important;
+    font-size: 5.625rem;
+}
+
+.fahad {
+    color: #ffd700;
+}
+
+/* Top Container h2 */
+.top-container-h2 {
+    font-size: 3rem;
+    line-height: 3vh;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+.web {
+    color: #ffd700;
+}
+
+.btn-cv {
+    color: #ffd700;
+    background: transparent;
+    border: 2px solid #ffd700;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 2rem;
+    margin-top: 5rem;
+}
+
+.btn-cv:hover,
+.btn-cv:focus {
+    color: #ffd700;
+    border: 2px solid #ffd700;
+}
+
+/* Minimal HR with #FFD700 color */
+.fancy-hr {
+    height: 2px;
+    background-color: #ffd700;
+    border: none;
+    margin: 20px 0;
+}
+
+/* Middle Section */
+.middle-container {
+    margin: 50px 0;
+}
+
+/* about Container */
+.contact-container {
+    background-color: #ffa33c;
+    margin: 50px 0;
+}
+
+/* about Container header*/
+.fw-normal {
+    color: #ffd700;
+    margin-top: 20px;
+    font-size: 3.5rem;
+}
+
+.about-p {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+/* Portfolio Container */
+.portfolio-container {
+    background-color: #9370db;
+    margin: 50px 0;
+}
+
+.carousel-item {
+    margin-right: 10px;
+    /* Adjust the margin as needed */
+}
+
+.card img {
+    max-height: 280px;
+    /* Adjust the max-height as needed */
+}
+
+/* Contact Container */
+.contact-container {
+    margin: 50px 0;
+}
+
+/* Bottom Section */
+
+.bottom-container {
+
+    margin: 50px 0;
+}
+
+.form-group {
+    width: 40%;
+    margin-left: 35%;
+    height: 10vh;
+}
+
+/* Generic styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer {
+    background-color: #ffd700;
+    color: #000000;
+    line-height: 1.5;
+    font-family: ‘Montserrat’, sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ft-title {
+    color: #000000;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+}
+
+/* Sticks footer to bottom */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.footer-container {
+    flex: 1;
+}
+
+/* Footer main */
+.ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 29.8125rem
+
+    /* 477px */
+) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (min-width: 77.5rem
+
+    /* 1240px */
+) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+}
+
+.ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem;
+}
+
+/* Footer main | Newsletter form */
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+}
+
+input[type="submit"] {
+    background-color: #00d188;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+}
+
+/* Footer social */
+.ft-social {
+    padding: 0 1.875rem 1.25rem;
+}
+
+.ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid;
+    padding-top: 1.25rem;
+}
+
+.ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+}
+
+/* Footer legal */
+.ft-legal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffd700;
+}
+
+.ft-legal-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    /* Add this line to center the content within the list */
+}
+
+.ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+}
